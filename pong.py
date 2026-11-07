@@ -32,11 +32,11 @@ while running:
             player_y += 8
 
     if ball_x >= 788:
-        ball_x_speed = -abs(ball_x_speed)
+        ball_x_speed = 5
         ball_x, ball_y = 400, 300
         player_score += 1
     elif ball_x <= 12:
-        ball_x_speed = abs(ball_x_speed)
+        ball_x_speed = 5
         ball_x, ball_y = 400, 300
         ai_score += 1
     elif ball_y <= 12:
