@@ -1,4 +1,4 @@
-import pygame, sys
+import pygame, sys, time
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
